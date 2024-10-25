@@ -13,7 +13,9 @@
 
 #controls > button
 {
+    cursor: pointer;
     padding: 5px 8px;
+    width: 80px;
 }
 
 #screen
@@ -24,4 +26,6 @@
     translate: -50% 0;
     height: 320px;
     width: 320px;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
 }
